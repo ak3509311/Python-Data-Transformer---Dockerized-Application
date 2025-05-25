@@ -133,7 +133,7 @@ docker run -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output energy-pipeli
 
 ---
 
-## ✅ Output Files
+##  Output Files
 
 * `output/cleaned_measurements.csv`: Cleaned and type-corrected dataset.
 * `output/hourly_grid_totals_with_peak_flag.csv`: Hour-by-hour aggregation with peak indicators.
@@ -141,7 +141,7 @@ docker run -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output energy-pipeli
 
 ---
 
-## 🔁 NiFi Flow (High-level Overview)
+##  NiFi Flow (High-level Overview)
 
 * **Input Directory Monitoring**: NiFi watches `/app/input/` for new CSV files.
 * **Trigger Python Pipeline**: When files arrive, a shell command is executed to run the `pipeline.py`.
@@ -153,14 +153,14 @@ docker run -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output energy-pipeli
 
 ---
 
-## 🗂️ Requirements
+##  Requirements
 
 * Docker Engine
 * Git (to clone this repository)
 
 ---
 
-## 🌐 Deployment
+##  Deployment
 
 To deploy to production or share with others, push your code to a GitHub repository and share the public URL.
 
@@ -174,11 +174,3 @@ git push -u origin main
 
 ---
 
-## 📬 Contact
-
-For questions, feel free to open an issue or contact the repository maintainer.
-
-```
-
-Let me know if you want the `nifi` processor templates or flow configuration files added to this documentation too!
-```
