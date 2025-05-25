@@ -2,7 +2,6 @@ Here is a professional and clear `README.md` documentation in markdown format ba
 
 ---
 
-```markdown
 # Energy Measurements Data Pipeline
 
 This project implements a Python-based data pipeline for cleansing and transforming raw energy measurement data from CSV files. The pipeline is containerized with Docker and integrated with **Apache NiFi**, which monitors a directory for incoming files, processes them using the defined Python logic, and outputs transformed data into CSV format.
@@ -11,7 +10,7 @@ This project implements a Python-based data pipeline for cleansing and transform
 
 ## 📦 Project Structure
 
-```
+
 
 .
 ├── Dockerfile
@@ -26,7 +25,7 @@ This project implements a Python-based data pipeline for cleansing and transform
 ├── nifi/                              # NiFi flow configuration and bootstrap files
 └── README.md
 
-````
+
 
 ---
 
