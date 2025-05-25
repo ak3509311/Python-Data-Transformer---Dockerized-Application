@@ -1,12 +1,10 @@
-
-
 # Energy Measurements Data Pipeline
 
 This project implements a Python-based data pipeline for cleansing and transforming raw energy measurement data from CSV files. The pipeline is containerized with Docker and integrated with **Apache NiFi**, which monitors a directory for incoming files, processes them using the defined Python logic, and outputs transformed data into CSV format.
 
 ---
 
-## 📦 Project Structure
+##  Project Structure
 
 
 
@@ -27,7 +25,7 @@ This project implements a Python-based data pipeline for cleansing and transform
 
 ---
 
-## 🧰 Features
+##  Features
 
 1. **Load CSV Data**
    - Automatically read raw data from CSV files (semicolon `;` delimited).
@@ -48,7 +46,7 @@ This project implements a Python-based data pipeline for cleansing and transform
 
 ---
 
-## 🐍 Python Data Pipeline Logic (`pipeline.py`)
+##  Python Data Pipeline Logic (`pipeline.py`)
 
 ```python
 import pandas as pd
@@ -88,7 +86,7 @@ summary.to_csv("output/summary_by_serial.csv")
 
 ---
 
-## 🐳 Docker Setup
+##  Docker Setup
 
 ### Dockerfile
 
@@ -119,7 +117,7 @@ CMD ["bash", "-c", "/opt/nifi/bin/nifi.sh start && sleep 10 && python3 pipeline.
 
 ---
 
-## 🏗️ Build and Run
+##  Build and Run
 
 ### Step 1: Build Docker Image
 
