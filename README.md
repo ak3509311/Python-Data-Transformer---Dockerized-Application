@@ -1,6 +1,4 @@
-Here is a professional and clear `README.md` documentation in markdown format based on your complete task requirements:
 
----
 
 # Energy Measurements Data Pipeline
 
