@@ -13,12 +13,11 @@ This project implements a Python-based data pipeline for cleansing and transform
 ├── Dockerfile
 ├── pipeline.py
 ├── input/                             # Directory monitored by NiFi for raw CSV files
-│   └── measurements\_coding\_challenge.csv
+│   └── measurements_coding_challenge.csv
 ├── output/                            # Directory where transformed CSV files are stored
-│   ├── cleaned\_measurements.csv
-│   ├── hourly\_grid\_totals\_with\_peak\_flag.csv
-│   └── summary\_by\_serial.csv
-├── nifi/                              # NiFi flow configuration and bootstrap files
+│   ├── cleaned_measurements.csv
+│   ├── hourly_grid_totals_with_peak_flag.csv
+│   └── summary_by_serial.csv
 └── README.md
 
 ````
