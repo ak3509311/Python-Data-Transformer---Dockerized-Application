@@ -8,10 +8,10 @@ This project implements a Python-based data pipeline for cleansing and transform
 
 
 
+````
 .
 ├── Dockerfile
 ├── pipeline.py
-├── requirements.txt
 ├── input/                             # Directory monitored by NiFi for raw CSV files
 │   └── measurements\_coding\_challenge.csv
 ├── output/                            # Directory where transformed CSV files are stored
@@ -21,7 +21,7 @@ This project implements a Python-based data pipeline for cleansing and transform
 ├── nifi/                              # NiFi flow configuration and bootstrap files
 └── README.md
 
-
+````
 
 ---
 
